@@ -1,0 +1,30 @@
+Aquí tienes el contenido completo del archivo `.gitignore` para la raíz de tu monorepo.
+
+Este archivo debe ir en la carpeta `gym-pwa-monorepo/` y sus reglas se aplicarán a ambos proyectos, el backend y el frontend.
+
+```
+# Node dependencies
+/node_modules/
+/apps/*/node_modules/
+/packages/*/node_modules/
+npm-debug.log
+.pnpm-debug.log
+
+# Environment files
+.env
+.env.local
+
+# Nest.js build artifacts
+dist/
+
+# Next.js build artifacts
+.next/
+out/
+
+# VS Code
+.vscode/
+
+# Other temporary files
+*.log
+*.tsbuildinfo
+```

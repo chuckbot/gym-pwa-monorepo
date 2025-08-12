@@ -1,0 +1,11 @@
+{
+  "name": "gym-pwa-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:backend": "pnpm --filter gym-pwa-backend start:dev",
+    "dev:frontend": "pnpm --filter gym-pwa-frontend dev",
+    "start:backend": "pnpm --filter gym-pwa-backend start",
+    "start:frontend": "pnpm --filter gym-pwa-frontend build && pnpm --filter gym-pwa-frontend start"
+  }
+}
